@@ -1,0 +1,173 @@
+/* PC */
+
+@media  (max-width:1204px)
+{
+   
+}
+
+
+/* Tablet*/
+
+@media  (min-width: 740px) and (max-width: 1023px)
+{
+        .contact-info
+            {
+                line-height: 2;
+            }
+        .tickets-list
+            {
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+    
+         .places-list
+        {
+            margin: 32px 0;
+        }
+}
+
+/* Tablet & mobile  */
+
+@media (max-width:1023px)
+    {
+        .btn
+            {
+                padding: 15px 16px;
+            }
+        .contact-form .form-control
+            {
+                padding: 15px;
+            }
+        .contact-info
+            {
+                line-height: 2;
+            }
+        .socials-list
+            {
+                font-size: 48px;
+            }
+        #footer .socials-list a
+            {
+                margin: 0px 8px;
+                padding: 12px 0px;
+                display: inline-block;
+            }
+        #nav .subnav a
+            {
+                padding: 5px 12px;
+            }
+        
+      
+    }
+
+
+
+
+
+
+/* Mobile */
+
+@media  (max-width:740px)
+{
+    .s-full-width,
+    .s-col-full
+        {
+            width: 100% !important; 
+        }
+    #nav 
+        {
+            display: block;
+        }
+    #nav>li
+        {
+            display: block;
+        }
+    #nav li a 
+        {
+            padding: 1px 24px;
+        }
+    #nav .subnav
+        {
+            position: initial;
+            background-color: #333;
+        }
+    #nav .subnav a
+        {
+            
+            color: #fff;
+            padding: 5px 41px;
+        }
+    #nav>li:first-child
+        {
+            display: inline-block;
+        }
+    #header
+        {
+            overflow: hidden;
+        }
+    #header .mobile-menu-btn
+        {
+            display: block;
+        }
+    #header .search-btn
+        {
+            display: none;
+        }
+    #slider .text-heading
+        {
+            font-size: 15px;
+        }
+    #slider .text-discription
+        {
+            font-size: 10px;
+        }
+    #content .about-text
+        {
+            /* font-size: 20px; */
+            font-size: 20px;
+            padding: 0px 15px;
+        }
+    #content .member-item
+        {
+            width: 100%;
+            margin-top: 30px;
+        }
+    #content  .menber-img
+        {
+            width: 60%;
+        }
+    .contact-form
+        {
+            margin-top: 32px;
+        }
+    .s-col-full
+        {
+            width: 100%;
+        }
+    .tickets-list
+        {
+            background-color: #fff;
+            margin: 40px 10px;
+        }
+    .place-img
+        {
+            width: 100%;
+        }
+    .btn
+        {
+            margin-left: 0;
+        }
+        
+    #content .tour-section > .content-section
+        {
+            height: 1855px;
+        }
+    .places-list
+        {
+            margin: 0;
+        }
+    .s-mt-8
+        {
+            margin-top: 8px !important;
+        }
+}
